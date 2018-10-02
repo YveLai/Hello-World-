@@ -1,2 +1,3 @@
 # Hello-World-
 1st practice
+This is my first time to use Github. I think it is a little difficult for me...
