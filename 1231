@@ -1,0 +1,11 @@
+select
+    e.bid.baddress as"employee's branch",
+    c.account_r.bid.baddress as "account' branch"
+from
+    employee e, customeraccount c
+where
+    c.customer_r.niNum = e.niNum
+and
+    e.supervisorid.job_info.position = 'Project Leader'
+order by
+    c.account_r;
